@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Terminal playground"/> -->
+    <TextBoxCompVue />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import HelloWorld from '@/components/MainComp.vue'
+import TextBoxCompVue from '@/components/TextBoxComp.vue'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    HelloWorld,
+    TextBoxCompVue
   }
 }
 </script>
